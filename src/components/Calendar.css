@@ -1,0 +1,38 @@
+.mesa {
+	width: 100%;
+	height: 720px;
+	border: 3px solid black;
+}
+
+.mesa th {
+	background-color: #c1c1c1;
+}
+
+.mesa td {
+	border: 1px solid grey;
+}
+
+td:nth-child(odd) {
+	white-space: nowrap;
+	color: blue;
+}
+
+td:nth-child(even) {
+	white-space: nowrap;
+	color: red;	
+}
+
+
+td:hover {
+	background-color: grey;
+	border: 1px sold rgb(39, 39, 39);
+	color:white;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 40px;
+	background-color: white;
+}
